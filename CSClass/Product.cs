@@ -1,9 +1,14 @@
 ﻿namespace CSClass
 {
-    internal class Product
+     class Product
     {
-        public Product()
+
+        public string name;
+        public int price;
+
+        public override string ToString()
         {
+            return this.name + " : " + this.price;
         }
     }
 }
