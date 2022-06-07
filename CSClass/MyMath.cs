@@ -13,7 +13,14 @@ namespace CSClass
          public static int Abs(int v) {
             //some_int 5; 인스턴수 변수 : 클래스에서 변수 사용불가
             //foo(); 인스턴스 메서드 : 클래스 메서드에서 사용 불가
-            return (v<0) ?-1 : v;
+            return (v<0) ?-1*v : v;
+        }
+
+        public static double Abs(double v)
+        {
+            //some_int 5; 인스턴수 변수 : 클래스에서 변수 사용불가
+            //foo(); 인스턴스 메서드 : 클래스 메서드에서 사용 불가
+            return (v < 0) ? -1*v : v;
         }
 
         void foo()
