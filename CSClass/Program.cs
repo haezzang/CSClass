@@ -103,7 +103,7 @@ namespace CSClass
                 Console.WriteLine(student);
             }
 
-
+            Console.WriteLine(MyMath.Abs(52));
         }
     }
 }
