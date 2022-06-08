@@ -1,4 +1,6 @@
-﻿namespace CSClass
+﻿using System;
+
+namespace CSClass
 {
      class Product
     {
@@ -30,5 +32,11 @@
         {
             return "["+this.id+"]"+this.name + " : " + this.price;
         }
+
+        ~Product() {
+            Console.WriteLine(this.name+"소멸자 호출");
+        }
     }
+
+
 }
