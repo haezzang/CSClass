@@ -149,6 +149,10 @@ namespace CSClass
             Console.WriteLine(Fibonacci.Get(3));
             Console.WriteLine(Fibonacci.Get(4));
             Console.WriteLine(Fibonacci.Get(5));
+
+            Cat c = new Cat();
+            Dog d = new Dog();
+
         }
     }
 }
