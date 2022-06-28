@@ -2,15 +2,11 @@
 
 namespace CSClass
 {
-    internal class Cat : Animal
+    public class Cat : Animal
     {
-        public Cat() {
-
-        }
-
-        public void Bark()
+        public void Meow()
         {
-            Console.WriteLine("냐냐");
+            Console.WriteLine("냥냥");
         }
     }
 }

@@ -2,12 +2,10 @@
 
 namespace CSClass
 {
-    internal class Dog
+    public class Dog : Animal
     {
-        public Dog()
-        {
+        string Color;
 
-        }
         public void Bark()
         {
             Console.WriteLine("멍멍");
