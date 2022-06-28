@@ -172,7 +172,10 @@ namespace CSClass
                 {
                     ((Cat)item).Meow();
                 }
-
+                var dog =item as Dog;
+                if (dog != null) { dog.Bark(); }
+                var cat=item as Cat;
+                if (cat != null) { cat.Meow(); }
             }
 
 
@@ -188,7 +191,8 @@ namespace CSClass
                 item.Sleep();
                 item.Meow();
             }
-
+            Child ChildA = new Child();
+            Child ChildB = new Child("String");
         }
     }
 }
