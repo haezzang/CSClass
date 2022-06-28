@@ -8,6 +8,8 @@ namespace CSClass
 {
     internal class Program
     {
+
+        public static int number = 10;
         static void Main(string[] args)
         {
             Car car = new Car();
@@ -193,6 +195,17 @@ namespace CSClass
             }
             Child ChildA = new Child();
             Child ChildB = new Child("String");
+
+
+
+            //shadowing
+            int number = 20;
+            Console.WriteLine(number);
+
+            foreach (var item in Animals)
+            {
+                item.Eat();
+            }
         }
     }
 }

@@ -6,11 +6,26 @@ namespace CSClass
 
 
     {
-        private int v;
+
+
+        public int variable = 273;
+
+
+        public virtual void Method() {
+            Console.WriteLine("부모의 메서드");
+        }
+
+
+        public virtual void Method2()
+        {
+            Console.WriteLine("자식의 메서드");
+        }
 
 
         public Parent( )
         {
+
+            
             Console.WriteLine("Parent()");
         }
         public Parent(int param) {
